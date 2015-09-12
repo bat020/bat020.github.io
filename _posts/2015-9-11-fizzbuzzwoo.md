@@ -3,8 +3,6 @@ layout: post
 title: fizzbuzzwoo
 ---
 
-# fizzbuzzwoo
-
 Most methods of coding `fizzbuzz` rely on conditional statements that make it hard to generalise the algorithm to cope with new rules. This raises the question of how to code the function without using conditionals at all.
 
 One approach is to simply mimic the Boolean algebra of conditional statements using integer arithmetic. But this would be cheating. The underlying logic of the algorithm is unchanged by hijacking integer methods in this fashion. We would just masking our use of conditionals with fancy tricks. The code would if anything become even less flexible.
