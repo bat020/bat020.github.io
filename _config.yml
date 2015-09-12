@@ -17,10 +17,10 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  github: bat020/bat020.github.io
-  stackoverflow: http://stackoverflow.com/users/5257507/bat020
   email: bat020@gmail.com
+  github: bat020/bat020.github.io
   rss: rss # just type anything here for a working RSS icon, make sure you set the "url" above!
+  stackoverflow: http://stackoverflow.com/users/5257507/bat020
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
