@@ -5,7 +5,7 @@ title: blocks, procs, lambdas
 
 ### blocks
 
-A *block* in Ruby is simply a sequence of code enclosed by `{` and `}` (or alternatively enclosed by `do` and `end`). You can optionally supply a block with local variables, known as *parameters*, by enclosing them with `|` and `|` at the start of the block.
+A **block** in Ruby is simply a sequence of code enclosed by `{` and `}` (or alternatively enclosed by `do` and `end`). You can optionally supply a block with local variables by enclosing them with `|` and `|` at the start of the block.
 
 Here are some examples of blocks:
 
@@ -21,7 +21,7 @@ Blocks are NOT objects, but merely syntactical constructions in Ruby. You cannot
 Here are some examples of passing blocks to methods:
 
 ```
-3.times { print "foo" }             # prints "foofoofoo" and returns 3
+3.times { print "foo" }             # prints "foofoofoo"
 [1, 2, 3].map { |x| x * 2 + 1 }     # returns [3, 5, 7]
 ```
 
@@ -33,8 +33,8 @@ def hello(a, b)
   yield(a, b)
 end
 
-hello(3, 5) { |x, y| x * y + 1 }    # prints "hello" and returns 16
-hello(7, 2) { |x, y| x ** y - 1 }   # prints "hello" and returns 48
+hello(3, 5) { |x, y| x * y + 1 }    # prints "hello", returns 16
+hello(7, 2) { |x, y| x ** y - 1 }   # prints "hello", returns 48
 ```
 
 ### procs
@@ -43,7 +43,7 @@ Blocks execute extremely quickly, but are otherwise rather limited. We cannot pa
 
 We have to turn blocks into objects of some sort if we want to do anything more complex with them. This comes with a performance overhead, however, so we should only do it when necessary.
 
-A *proc* is simply a block that has been converted into an object. They are instances of the class `Proc` which inherits from `Object`. They work much like any other object in Ruby – we can instantiate them with `Proc.new` (or its synonym `proc`) and execute them with the instance method `call`:
+A **proc** is simply a block that has been converted into an object. They are instances of the class `Proc` which inherits from `Object`. They work much like any other object in Ruby – we can instantiate them with `Proc.new` (or its synonym `proc`) and execute them with the instance method `call`:
 
 ```
 my_proc = Proc.new { |x| x * 2 + 1 }
@@ -58,7 +58,7 @@ We can convert back and forth between blocks and procs by using the unary `&` op
 fred = proc { print "zap" }
 judy = proc { |x| x + 7 }
 
-3.times &fred         # prints "zapzapzap" and returns 3
+3.times &fred         # prints "zapzapzap"
 [1, 2, 3].map &judy   # returns [8, 9, 10]
 ```
 
@@ -76,12 +76,12 @@ def my_method(a, b, &judy)
   judy.call(a, b)
 end
 
-my_method(3, 5) { |x, y| x * y + 3 }     # prints 2 and returns 18
+my_method(3, 5) { |x, y| x * y + 3 }    # prints 2, returns 18
 ```
 
 ### lambdas
 
-Lambdas are special types of procs whose behaviour is modified to more closely resemble mathematical functions. The name "lambda" derives from the [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), a formal system for specifying functions developed by Alonzo Church in the 1930s.
+A **lambda** is a special type of procs whose behaviour is modified to more closely resemble mathematical functions. The name "lambda" derives from the [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), a formal system for specifying functions developed by Alonzo Church in the 1930s.
 
 Ruby is pretty relaxed about the number of arguments passed to a block or proc. If there are too many, it simply ignores the extra ones. If there are too few, it doesn't mind unless it actually needs the missing arguments:
 
