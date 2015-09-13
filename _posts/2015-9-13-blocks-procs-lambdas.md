@@ -112,6 +112,7 @@ def square(f)
 end
 
 five = lambda { return 5 }
+
 square(five)      # returns 25
 ```
 
@@ -124,6 +125,7 @@ def square(f)
 end
 
 five = proc { return 5 }
+
 square(five)      # raises "unexpected return" error
 ```
 
