@@ -3,7 +3,7 @@ layout: post
 title: blocks, procs, lambdas
 ---
 
-### blocks
+## blocks
 
 A **block** in Ruby is simply a sequence of code enclosed by `{` and `}` (or alternatively enclosed by `do` and `end`). You can optionally supply a block with local variables by enclosing them with `|` and `|` at the start of the block.
 
@@ -37,7 +37,8 @@ hello(3, 5) { |x, y| x * y + 1 }    # prints "hello", returns 16
 hello(7, 2) { |x, y| x ** y - 1 }   # prints "hello", returns 48
 ```
 
-### procs
+
+## procs
 
 Blocks execute extremely quickly, but are otherwise rather limited. We cannot pass more than one block to a method. Nor can we store blocks: if we want to use them same block in more than one place we have to type it out again.
 
@@ -79,7 +80,8 @@ end
 my_method(3, 5) { |x, y| x * y + 3 }    # prints 2, returns 18
 ```
 
-### lambdas
+
+## lambdas
 
 A **lambda** is a special type of procs whose behaviour is modified to more closely resemble mathematical functions. The name "lambda" derives from the [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), a formal system for specifying functions developed by Alonzo Church in the 1930s.
 
