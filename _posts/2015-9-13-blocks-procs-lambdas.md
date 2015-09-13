@@ -16,7 +16,7 @@ Here are some examples of blocks:
 { |x, y| x * y + 1 }    # multiplies x and y then adds 1
 ```
 
-Blocks are NOT objects, but merely syntactical constructions in Ruby. You cannot assign them to variables, or store them in arrays. Pretty much all you can do with them is pass them to methods. Certain methods in Ruby expect or require a block to be passed to them.
+Blocks are NOT objects, but merely syntactical constructions in Ruby. You cannot assign them to variables, or store them in arrays. Pretty much all you can do with them is pass them to methods. Certain methods in Ruby expect a block to be passed to them.
 
 Here are some examples of passing blocks to methods:
 
