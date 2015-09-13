@@ -105,7 +105,7 @@ three.call(0)     # returns 3
 three.call(0,0)   # raises "wrong number of arguments" error
 ```
 
-Lambdas also behave differently when they encounter a `return` command. Ruby simply goes back to the method that called the lambda and continues running that method:
+Lambdas also behave differently when they encounter a `return` command. The Ruby interpreter simply goes back to the method that called the lambda and continues running that method:
 
 ```
 def square(f)
