@@ -83,7 +83,7 @@ my_method(3, 5) { |x, y| x * y + 3 }    # prints 2, returns 18
 
 ## lambdas
 
-A **lambda** is a special type of procs whose behaviour is modified to more closely resemble mathematical functions. The name "lambda" derives from the [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), a formal system for specifying functions developed by Alonzo Church in the 1930s.
+A **lambda** is a special type of proc whose behaviour is modified to more closely resemble mathematical functions. The name "lambda" derives from the [lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), a formal system for specifying functions developed by Alonzo Church in the 1930s.
 
 Ruby is pretty relaxed about the number of arguments passed to a block or proc. If there are too many, it simply ignores the extra ones. If there are too few, it doesn't mind unless it actually needs the missing arguments:
 
