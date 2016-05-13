@@ -3,6 +3,8 @@ layout: post
 title: blocks, procs, lambdas
 ---
 
+Ruby provides three methods of approximating functional programming techniques by treating chunks of code as entities in their own right: blocks, procs and lambdas. But how do they work and what are the differences between them?
+
 ## blocks
 
 A **block** in Ruby is simply a sequence of code enclosed by `{` and `}` (or alternatively enclosed by `do` and `end`). You can optionally supply a block with local variables by enclosing them with `|` and `|` at the start of the block.
