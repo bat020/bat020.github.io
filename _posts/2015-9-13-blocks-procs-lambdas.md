@@ -10,7 +10,6 @@ A **block** in Ruby is simply a sequence of code enclosed by `{` and `}` (or alt
 Here are some examples of blocks:
 
 ```
-{ }                     # does nothing
 { print "foo" }         # prints "foo"
 { |x| x * 2 + 1 }       # doubles x then adds 1
 { |x, y| x * y + 1 }    # multiplies x and y then adds 1
