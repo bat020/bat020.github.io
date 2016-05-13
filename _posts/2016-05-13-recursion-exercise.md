@@ -3,7 +3,7 @@ layout: post
 title: recursion exercise
 ---
 
-A simple problem involving recusrion. I'm curious as to how people go about tackling this. There are several approaches one could take. The one I plumped for turned out to involve quite a bit of explaining to baffled colleagues.
+A simple problem involving recusrion. I'm curious as to how people go about tackling this. There are several approaches one could take. The one I plumped for turned out to require quite a bit of explaining to baffled colleagues, hence aforementioned curiosity.
 
 We're supplied with a JSON file representing the route structure of a website. Some of the nodes have content in them (flagged up by `content: true`). We want to generate a list of all valid paths to content, by crawling the JSON recursively.
 
