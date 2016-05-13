@@ -5,7 +5,7 @@ title: recursion exercise
 
 A simple problem involving recusrion. I'm curious as to how people go about tackling this. There are several approaches one could take. The one I plumped for turned out to involve quite a bit of explaining to baffled colleagues.
 
-We're supplied with a JSON file representing the route structure of a website. Some of the nodes have content in them (flagged up by the key/value pair `content: true`). We want to generate a list of all valid paths to content, by crawling the JSON recursively.
+We're supplied with a JSON file representing the route structure of a website. Some of the nodes have content in them (flagged up by `content: true`). We want to generate a list of all valid paths to content, by crawling the JSON recursively.
 
 For instance, given the following route structure:
 
@@ -34,7 +34,7 @@ For instance, given the following route structure:
 }
 ```
 
-getPaths(json) should return:
+`getPaths()` should return:
 
 ```json
 [
