@@ -6,7 +6,7 @@
 name: bat020
 
 # Short bio or description (displayed in the header)
-description: code | theory | other 
+description: code | theory | propaganda 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -17,11 +17,10 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: bat020@gmail.com
+  twitter: bat020
   github: bat020
   rss: rss
-  twitter: bat020
-  youtube: user/bat020
+  email: bat020@gmail.com
 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
