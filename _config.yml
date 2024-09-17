@@ -16,11 +16,19 @@ avatar: https://avatars.githubusercontent.com/u/9395666
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  github: bat020
-  twitter: bat020
-  rss: rss
+  dribbble:
   email: bat020@gmail.com
-
+  facebook:
+  flickr:
+  github: bat020
+  instagram:
+  linkedin:
+  pinterest:
+  rss: rss
+  twitter: bat020
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
