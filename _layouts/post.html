@@ -10,7 +10,7 @@ layout: default
   </div>
 
   <div class="date">
-    posted on {{ page.date | date: "%Y-%m-%d" }} | {{ tags }}
+    posted on {{ page.date | date: "%Y-%m-%d" }} {% for tag in tags %}| {{ tag }} </a>{% endfor %}
   </div>
 
 </article>
