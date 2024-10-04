@@ -202,10 +202,11 @@ img {
 
 .site-description {
   margin: -8px 0 0 0;
-  color: $midGray;
+  color: $gray;
   font-family: $helveticaNeue;
   font-size: 18px;
-  letter-spacing: 0.4px;
+  font-weight: 300;
+  letter-spacing: 1px;
   @include mobile {
     margin: 3px 0;
   }
