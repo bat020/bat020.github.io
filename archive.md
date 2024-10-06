@@ -1,15 +1,14 @@
 ---
 layout: page
-title: links/archive
+title: site archive
 permalink: /archive/
 ---
 
-Some information about you!
+### site archive
 
-### More Information
+* [home page]()
+* [about me]()
+* [site archive]()
+* [rss feed]()
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+* [2024-10-06 hello]()
