@@ -1,15 +1,22 @@
 ---
 layout: page
-title: About
+title: about me
 permalink: /about/
 ---
 
-Some information about you!
+bat020 = Anindya Bhattacharyya, coder/theorist/ranter based in London. interests include mathematics, philosophy, technology, socialism, dance music. am usually around on twitter as [@bat020](https://twitter.com/bat020) and I have the obvious gmail address.
 
-### More Information
+### links to old stuff
 
-A place to include any other types of information that you'd like to include about yourself.
+bat020.com (wordpress)
+bat020.tumbler.com
+bat.blogspot.com
 
-### Contact me
+### archive of this site
 
-[email@domain.com](mailto:email@domain.com)
+home
+about me
+links/archive
+rss feed
+
+2024-10-06 hello
