@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  padding-top: 7px;
   font-size: 30px;
   a {
     color: inherit;
@@ -265,14 +266,9 @@ nav {
     font-size: 22px;
     font-style: italic;
   }
-  h1 {
-    padding-top: 7px;
-  }
-
   .comments {
     margin-top: 10px;
   }
-
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
