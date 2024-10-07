@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin-bottom: 15px;
   padding: 0;
 
   @include mobile {
@@ -153,7 +153,7 @@ img {
 
 .wrapper-masthead {
   margin-top: 20px;
-  margin-bottom: -10px;
+  margin-bottom: 20px;
 }
 
 .masthead {
