@@ -230,6 +230,9 @@ nav {
   a {
     margin-left: 20px;
     color: $darkGray;
+    &:hover, &:active {
+      color: $blue;
+    }
     @include mobile {
       margin: 0 10px;
       color: $blue;
