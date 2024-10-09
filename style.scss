@@ -169,7 +169,6 @@ img {
     display: block;
     margin: 0 auto;
   }
-
   img {
     border-radius: 10px;
   }
@@ -186,10 +185,11 @@ img {
 
 .site-name {
   margin: 0;
+  padding: 0;
   color: $darkerGray;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 32px;
+  font-size: 40px;
   letter-spacing: 1px;
 }
 
