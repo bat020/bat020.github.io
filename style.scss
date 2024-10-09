@@ -161,8 +161,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 80px;
-  height: 80px;
+  width: 96px;
+  height: 96px;
   margin-right: 24px;
   @include mobile {
     float: none;
@@ -185,7 +185,6 @@ img {
 
 .site-name {
   margin: 0;
-  padding: 0;
   color: $darkerGray;
   font-family: $helveticaNeue;
   font-weight: 300;
