@@ -27,7 +27,7 @@ body {
   background: $lightGray;
   margin: 0 auto;
   max-width: 840px;
-  padding: 0 20px 2px;
+  padding: 0 24px;
   width: 100%;
 }
 
@@ -151,25 +151,19 @@ img {
 //
 
 .wrapper-masthead {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 24px 0;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 24px 0;
   border-bottom: 1px solid $lightGray;
-
-  @include mobile {
-    text-align: center;
-  }
 }
 
 .site-avatar {
   float: left;
   width: 80px;
   height: 80px;
-  margin-right: 17px;
-
+  margin-right: 24px;
   @include mobile {
     float: none;
     display: block;
@@ -183,7 +177,6 @@ img {
 
 .site-info {
   float: left;
-
   @include mobile {
     float: none;
     display: block;
