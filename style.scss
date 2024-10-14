@@ -208,12 +208,12 @@ img {
 
 nav {
   float: right;
-  margin-top: 17px;
+  padding-top: 12px;
   font-family: $helveticaNeue;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
-  line-height: 1.4;
+  line-height: 1.5;
   text-align: right;
   @include mobile {
     float: none;
@@ -222,7 +222,6 @@ nav {
     font-size: 16px;
   }
   a {
-    margin-left: 24px;
     color: $darkerGray;
     &:hover, &:active {
       color: $blue;
