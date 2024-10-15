@@ -15,11 +15,11 @@ html {
 body {
   background: $gray;
   font: 16px/1.5 $georgia;
-  color: $darkerGray;
+  color: $darkestGray;
 }
 
 .container {
-  background: $lightGray;
+  background: $lightestGray;
   margin: 0 auto;
   max-width: 840px;
   padding: 0 24px;
@@ -65,7 +65,7 @@ p {
 }
 
 a {
-  color: $darkerBlue;
+  color: $darkBlue;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
@@ -221,7 +221,6 @@ nav {
     }
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
   img {
@@ -266,7 +265,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $lightestGray;
 }
 
 footer {
