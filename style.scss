@@ -18,6 +18,12 @@ body {
   color: $darkestGray;
 }
 
+.no-mobile {
+  @include mobile {
+    display: none;
+  }
+}
+
 .container {
   background: $lightestGray;
   margin: 0 auto;
