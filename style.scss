@@ -256,6 +256,9 @@ nav {
 
 .about-links {
   font-family: $helveticaNeue;
+  b {
+    font-weight: 500;
+  }
 }
 
 .posts > .post {
