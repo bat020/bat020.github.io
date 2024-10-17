@@ -10,5 +10,5 @@ Anindya Bhattacharyya: coder/theorist/other based in London. interests include m
   <strong>links to old blogs:</strong>
   <a href="https://bat020.com/">wordpress</a> |
   <a href="https://bat020.tumblr.com/)">tumblr</a> |
-  <a href="https://bat.blogspot.com/">blogspot</a>)
+  <a href="https://bat.blogspot.com/">blogspot</a>
 </p>
