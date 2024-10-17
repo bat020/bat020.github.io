@@ -58,6 +58,11 @@ h1 {
   a {
     color: inherit;
   }
+  @include mobile {
+    h1 {
+      font-size: 28px;
+  }
+
 }
 
 h2 {
